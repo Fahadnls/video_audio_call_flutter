@@ -1,16 +1,59 @@
-# flutter_video_call
+# 📞 Flutter Video Calling App
 
-A new Flutter project.
+A clean, modern **Flutter Video & Voice Calling Application** built using **ZEGO UIKit**, focusing on real-time communication, smooth user experience, and scalable architecture.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 Secure & minimal authentication
+- 📞 One-to-one voice & video calls
+- 👥 Group voice & video calls
+- 📲 Real-time incoming call handling
+- 🎥 Live video calling with low latency
+- 🎨 Clean & modern UI
+- ⚡ Smooth UX & call transitions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- **Flutter (Dart)**
+- **GetX** – State management & navigation
+- **ZEGO UIKit**
+  - `zego_uikit`
+  - `zego_uikit_signaling_plugin`
+  - `zego_uikit_prebuilt_call`
+- **Shared Preferences**
+- **Google Fonts**
+- **Cached Network Image**
+- **Crypto**
+- **Device Info Plus**
+
+---
+
+## 📱 Screens Overview
+
+- Login & authentication screen  
+- Call dashboard (online status & user info)  
+- One-to-one call setup  
+- Group call setup  
+- Incoming call UI  
+- Live video call screen  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (>= 3.10.3)
+- Android Studio / Xcode
+- ZEGO account credentials
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/flutter_video_call.git
+cd flutter_video_call
+flutter pub get
+flutter run
